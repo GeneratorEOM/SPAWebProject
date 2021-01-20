@@ -39,7 +39,7 @@ var Member = {
     			{
     				name: '한재희',
     				position: 'PM',
-    				image: 'resources/images/member1.png' 
+    				image: '/WebContent/resources/images/member1.png' 
     			},
     			{
     				name: '이태훈',
