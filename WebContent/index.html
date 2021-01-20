@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="./resources/css/style.css">
+</head>
+<body>
+	<div id="app">
+	<div class="logo">
+ 		<img src="./resources/images/logo.jpg"></img>
+ 	</div>
+ 	<div class="nav">
+ 		<v-btn class="btn" router :to="{name: 'Main'}">Main</v-btn>
+ 		<v-btn class="btn" router :to="{name: 'Member'}">Member</v-btn>
+ 	</div>
+ 	<router-view></router-view>
+
+</div>
+	<!--  -->
+	<!-- Vue.js / vue-router.js / Vuetify.js CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+	<!-- html template -->
+	<script src="./resources/js/components.js"></script>
+	<!-- 라우터 관련 설정 -->
+	<script src="./resources/js/router.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script> 
+
+	<script type="text/javascript">
+		var app = new Vue({
+			el: "#app",
+			router,
+			vuetify: new Vuetify(),
+		})		
+	</script>
+</body>
+</html>
