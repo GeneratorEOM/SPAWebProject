@@ -1,9 +1,9 @@
 var routes = [ {
-	path : "/SPAWebProject/WebContent/index.html",
+	path : "/SPAWebProject/index.html",
 	name: "Main",
 	component : Main
 }, {
-	path : "/SPAWebProject/WebContent/member",
+	path : "/SPAWebProject/member",
 	name: "Member",
 	component : Member
 }, {

@@ -3,7 +3,7 @@ var Main = {
 	<template>
 	<div>
 		<div style="width: 800px; margin: 0 auto;">
-			<img src="./resources/images/main.PNG" width="800"></img>
+			<img src="resources/images/main.PNG" width="800"></img>
 		</div>
   		<div style="text-align: center; color: white; padding: 5px; margin-top: 50px;">
   			<p style="font-size: 18pt;">(주)<b>이모션애드테크</b></p>
@@ -39,22 +39,22 @@ var Member = {
     			{
     				name: '한재희',
     				position: 'PM',
-    				image: './resources/images/member1.png' 
+    				image: 'resources/images/member1.png' 
     			},
     			{
     				name: '이태훈',
     				position: '개발팀장',
-    				image: './resources/images/member4.png'
+    				image: 'resources/images/member4.png'
     			},
     			{
     				name: '김종완',
     				position: '개발자',
-    				image: './resources/images/member3.png'
+    				image: 'resources/images/member3.png'
     			},
     			{
     				name: '엄대정',
     				position: '개발자',
-    				image: './resources/images/member2.png'
+    				image: 'resources/images/member2.png'
     			},
     		
     		]
